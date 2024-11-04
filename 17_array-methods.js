@@ -25,7 +25,7 @@ pop() Method:
 নোটঃ pop() Method মেইন অ্যারে পরিবর্তন করে। আবার এটি রিমুভ করা এলিমেন্ট কে নতুন String হিসেবে প্রদান করে।
 */
 const fruits3 = ["Banana", "Orange", "Apple", "Mango"];
-const a = fruits3.pop();
+let a = fruits3.pop();
 console.log(a); // Result: Mango
 console.log(typeof a); // Result: data type String
 console.log(fruits3); // Result: ["Banana", "Orange", "Apple"]
@@ -38,7 +38,7 @@ shift() Method:
 নোটঃ shift() Method মেইন অ্যারে পরিবর্তন করে। আবার এটি রিমুভ করা এলিমেন্ট কে নতুন String হিসেবে প্রদান করে।
 */ 
 const fruits4 = ["Banana", "Orange", "Apple", "Mango"];
-const b= fruits3.pop();
+let b = fruits3.pop();
 console.log(b); // Result: Banana
 console.log(typeof b); // Result: data type String
 console.log(fruits4); // ["Orange", "Apple", "Mango"] 
