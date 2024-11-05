@@ -102,7 +102,7 @@ splice() Meyhod:
 // Only Add element    
 const fruits8 = ["Banana", "Orange", "Apple"];
 fruits8.splice(1, 0, "Pineapple", "Mango"); 
-console.log(fruits8); // Result: ["Banana", "Pineapple", "Mango", "Orange", "Apple", "Mango"]
+console.log(fruits8); // Result: ["Banana", "Pineapple", "Mango", "Orange", "Apple"]
 
 // Add element & Remove element
 const fruits9 = ["Banana", "Orange", "Apple", "Mango"];
