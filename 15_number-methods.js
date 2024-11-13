@@ -3,7 +3,8 @@ isNaN() Method:
 ===============
 isNaN() Method এর কাজ হচ্ছে এটা নাম্বার কিনা তা চেক করে। যদি নাম্বার হয় তাহলে false দেখাবে আর যদি নাম্বার না হয় তাহলে true দেখাবে। 
 */
-console.log(isNaN("309")); // Result: true
+console.log(isNaN("309")); // Result: false
+console.log(isNaN("Hello")); // Result: true
 console.log(isNaN(309)); // Result: false
 
 
