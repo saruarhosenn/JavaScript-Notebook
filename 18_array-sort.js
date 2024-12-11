@@ -41,7 +41,7 @@ num1.sort(function(a, b) {
 });
 console.log(num1); // Result: [ 1, 5, 10, 25, 40, 100 ]
 
-// বড় থেকে ছোট পদ্ধতি/ Depending 
+// বড় থেকে ছোট পদ্ধতি/ Descending 
 // -----------------------------
 const num2 = [40, 100, 1, 5, 25, 10];
 num2.sort(function(a, b) {
